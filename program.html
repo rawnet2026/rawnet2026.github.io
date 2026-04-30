@@ -88,6 +88,52 @@
             font-weight: 700;
             color: #374151;
         }
+        .program-session {
+            margin-top: 28px;
+            padding: 24px;
+            background-color: #f8f9fa;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+        }
+        .session-meta {
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #d1d5db;
+        }
+        .session-time {
+            font-size: 20px;
+            font-weight: 700;
+            color: #111827;
+        }
+        .session-note {
+            margin: 8px 0 0;
+            color: #4b5563;
+        }
+        .paper-list {
+            display: grid;
+            gap: 18px;
+        }
+        .paper-item {
+            padding: 18px 20px;
+            background-color: white;
+            border-radius: 10px;
+            border-left: 5px solid #0b5ed7;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+        }
+        .paper-time {
+            margin: 0 0 8px;
+            font-size: 15px;
+            font-weight: 700;
+            color: #0b5ed7;
+        }
+        .paper-title {
+            margin: 0;
+            font-size: 20px;
+        }
+        .paper-authors {
+            margin: 10px 0 0;
+            color: #4b5563;
+        }
     </style>
 </head>
 <body class="body">
@@ -107,7 +153,38 @@
             </h1>
             <h2 class="subtitle">Program</h2>
 
-            <div class="placeholder">TBD</div>
+            <div class="program-session">
+                <div class="session-meta">
+                    <div class="session-time">RAWNET session: 8:00 AM - 9:20 AM</div>
+                    <p class="session-note">Each presentation is allocated 20 minutes.</p>
+                </div>
+
+                <div class="paper-list">
+                    <div class="paper-item">
+                        <p class="paper-time">8:00 AM - 8:20 AM</p>
+                        <h3 class="paper-title">Repeated Multi-Resource Proportional Allocation Auction Games</h3>
+                        <p class="paper-authors">Cleque-Marlain Mboulou-Moutoubi, Younes Ben Mazziane, Eitan Altman, Francesco De Pellegrini</p>
+                    </div>
+
+                    <div class="paper-item">
+                        <p class="paper-time">8:20 AM - 8:40 AM</p>
+                        <h3 class="paper-title">VISTA: Velocity-Informed Smart Transmission Adaptation in High Mobility IoT</h3>
+                        <p class="paper-authors">Fabio Busacca, Andrea Panebianco, Raoul Raftopoulos, Dario Scuderi</p>
+                    </div>
+
+                    <div class="paper-item">
+                        <p class="paper-time">8:40 AM - 9:00 AM</p>
+                        <h3 class="paper-title">Rethinking Power Allocation in OFDMA: A Throughput-Optimized Multi-User Strategy</h3>
+                        <p class="paper-authors">Giovanni Perin, Giovanni Angelo Alghisi, Aaron Kweku Amankwah, Francesco Gringoli</p>
+                    </div>
+
+                    <div class="paper-item">
+                        <p class="paper-time">9:00 AM - 9:20 AM</p>
+                        <h3 class="paper-title">Preemptive Scheduling for Age of Job Minimization in Task-Specific Machine Networks</h3>
+                        <p class="paper-authors">Subhankar Banerjee, Sennur Ulukus</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
